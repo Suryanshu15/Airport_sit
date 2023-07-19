@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Flight Details</title>
+  <link rel="stylesheet" type="text/css" href="flights.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Flight Details</h1>
+    <table class="flight-info">
+      <tr>
+        <th>FlightNo</th>
+        <th>Route</th>
+        <th>Departure</th>
+        <th>Arrival</th>
+      </tr>
+      <tbody id="tbody">
+
+      </tbody>
+    </table>
+  </div>
+  <script>
+    function td_fun({FlightNo	,Route	,Departure	,Arrival}) {
+      let td = document.createElement('tr')
+      td.innerHTML=`
+      <tr>
+        <td>${FlightNo}</td>
+        <td>${Route}</td>
+        <td>${Departure}</td>
+        <td>${Arrival}</td>
+      </tr>
+      `;
+      return td;
+    }
+    let tbody =document.getElementById("tbody");
+    // fetch function
+    fetch("http://localhost:3000/flightDetails")
+    .then(res=>res.json())
+    .then(json=>{
+      json.map(data=>{
+        console.log(data.FlightNo);
+        tbody.append(td_fun(data));
+      })
+     })
+
+  </script>
+</body>
+</html>

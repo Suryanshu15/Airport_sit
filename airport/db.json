@@ -1,0 +1,15 @@
+
+{
+    "flightDetails":[{
+        "FlightNo":"AB123",
+        "Route":"New York (JFK) to London (LHR)",
+        "Departure":"10:00 AM",
+        "Arrival":"2:00 PM"
+    },
+    {
+        "FlightNo":"CD456",
+        "Route":"London (LHR) to Paris (CDG)",
+        "Departure":"3:00 PM",
+        "Arrival":"5:00 PM"
+    }]
+}

@@ -1,0 +1,32 @@
+[
+  {
+    "img":"https://images.hindustantimes.com/img/2023/02/03/1600x900/Indigo-recorded_1675424472908_1675424473122_1675424473122.jpg"
+    "name":"indiGo",
+    "from":"Delhi",
+    "to":"USA",
+    "price": "5000";
+    "Departure":"25 Jun 2019",
+    "Arrival":"25 Jun 2019",
+    "depTime":"1:05 AM",
+    "arrTime":"2:05 AM"
+  },
+  {
+    "img":"https://images.hindustantimes.com/img/2023/02/03/1600x900/Indigo-recorded_1675424472908_1675424473122_1675424473122.jpg"
+
+    "name":"Asia line",
+    "from":"Aus",
+    "to":"Mumbai",
+    "price": "5000";
+    "Departure":"25 Jun 2019",
+    "Arrival":"25 Jun 2019",
+    "time":"3:05 AM"
+  },
+  {
+    "img":"https://images.hindustantimes.com/img/2023/02/03/1600x900/Indigo-recorded_1675424472908_1675424473122_1675424473122.jpg"
+    "name":"Air line",
+    "from":"lahor",
+    "to":"hongkong",
+    "price": "5000";
+    "time":"10:05 AM"
+  }
+]

@@ -1,0 +1,15 @@
+.tbl {
+  padding: 5px;
+}
+
+.tbl tr {
+  display: flex;
+  justify-content: space-between;
+}
+
+.tbl th {
+  padding: 25px;
+}
+.tbl td {
+  padding: 25px;
+}
